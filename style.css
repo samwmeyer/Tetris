@@ -1,0 +1,115 @@
+h3 {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url(spaceBackground.jpg);
+}
+
+img {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    box-shadow: 4px 4px 16px 4px black;
+}
+
+.container {
+    display: flex;
+    margin-left: 39%;
+    margin-top: 20px;
+}
+
+#start-button {
+    font-family: Gill Sans;
+    border-radius: 16px;
+    background-color: pink;
+    border: none;
+    box-shadow: 2px 2px 6px black, inset 0px 0px 4px 2px black;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#reset {
+    font-family: Gill Sans;
+    border-radius: 6px;
+    background-color: rebeccapurple;
+    border: none;
+    box-shadow: 2px 2px 6px black, inset 0px 0px 4px 2px black;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px black, inset 0px 0px 6px 2px black;
+    padding: 12px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    margin: 0px;
+    /* outline: 1px solid #6d98f6; */
+    box-shadow: inset 0px 0px 4px 2px #1b1b1b;
+}
+
+div.bottomrow {
+    border: none;
+    margin: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.tetromino {
+    background-color: blue;
+    outline: 2px black;
+    margin: 0px;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 4px 0.5px black !important;
+}
+
+.mini-grid {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(55, 27, 83);
+    border: none;
+    box-shadow: 4px 4px 12px 1px black, inset 0px 0px 6px 2px black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: inset 0px 0px 4px 2px rgb(47, 26, 69);
+    margin: 0px;
+}
+
